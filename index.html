@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Docusend</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/NPA_Logo.jpg" alt="" />
+      <span id="title"> Nigerian Ports Authority Docusend App</span>
+      <div class="btn">
+        <span class="head_btn">
+          <a href=""><i class="fa fa-search"></i> </a>
+        </span>
+        <span class="head_btn">
+          <a href=""><i class="fa fa-sign-out"></i> </a>
+        </span>
+      </div>
+    </header>
+    <main>
+      <div class="sidenav"></div>
+      <div class="send_form">
+        <form action="POST">
+          <label for="From">
+              <span>From:</span>
+              <div class="sel_con">
+              <select name="" id="">
+                <option value="HQ">HQ</option>
+              </select>
+              /
+              <select name="" id="">
+                <option value="ICT">ICT</option>
+              </select>
+              /
+              <select name="" id="">
+                <option value="GM">GM</option>
+                <option value="AGM_R&SP">AGM R&SP</option>
+                <option value="AGM_SA&DM">AGM SA&DM</option>
+                <option value="AGM_N&C">AGM N&C</option>
+                <option value="AGM_HI&S">AGM HI&S</option>
+              </select>
+            </div>
+          </label>
+          <label for="To">
+            <span>To:</span>
+            <div class="sel_con">
+              <select name="" id="">
+                <option value="HQ">HQ</option>
+              </select>
+              /
+              <select name="" id="">
+                <option value="ICT">ICT</option>
+              </select>
+              /
+              <select name="" id="">
+                <option value="GM">GM</option>
+                <option value="AGM_R&SP">AGM R&SP</option>
+                <option value="AGM_SA&DM">AGM SA&DM</option>
+                <option value="AGM_N&C">AGM N&C</option>
+                <option value="AGM_HI&S">AGM HI&S</option>
+              </select>
+            </div>
+          </label>
+          <label for="Subject">
+            <span>Subject:</span>
+            <input type="text" name="Subject" id="" />
+          </label>
+          <label for="Ref_No">
+            <span>Reference Number:</span>
+            <input type="text" name="Ref_No" id="" />
+          </label>
+          <label for="Date">
+            <span>Date:</span>
+            <input type="date" name="Date" id="" />
+          </label>
+          <label for="File">
+            <span>Choose file:</span>
+            <input type="file" name="File" id="" />
+          </label>
+          <button type="submit">Send <i class="fa fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
