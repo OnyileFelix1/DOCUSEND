@@ -68,7 +68,6 @@ class Unzipper {
     }
   }
 
-  
   public static function extract($archive, $destination) {
     $ext = pathinfo($archive, PATHINFO_EXTENSION);
     switch ($ext) {
