@@ -1,3 +1,5 @@
+/* start of session
+
 <?php 
   session_start();
   include_once "php/config.php";
@@ -5,6 +7,7 @@
     header("location: login.php");
   }
 ?>
+    /*include the header into the body
 <?php include_once "header.php"; ?>
 <body>
   <div class="wrapper">
